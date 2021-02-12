@@ -43,11 +43,8 @@ class SecureAreaPageObject(PageObject):
         :returns: login page object instance
         """
         from pageobjects.login import LoginPageObject
-<<<<<<< HEAD
-=======
-        self.logger.debug("===============================Logging out==================================")
->>>>>>> android
 
+        self.logger.debug("===============================Logging out==================================")
         self.logger.debug("Clicking logout button")
         time.sleep(3)
         self.logout_button.click()

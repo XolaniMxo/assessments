@@ -52,11 +52,8 @@ class LoginPageObject(PageObject):
 
         :returns: this page object instance
         """
-<<<<<<< HEAD
-        self.logger.debug("Loading page '%s'")
-=======
-        self.logger.debug("===============================Openining Page==================================")
->>>>>>> android
+
+        self.logger.debug("===============================Openining Page=======================================")
         self.driver.get('{}/login'.format(self.config.get('Test', 'landing_page')))
         return self
 
@@ -66,11 +63,7 @@ class LoginPageObject(PageObject):
         :returns: this page object instance
         """
 
-<<<<<<< HEAD
-        self.logger.debug("Waiting for page objects to visible.")
-=======
         self.logger.debug("===============================Loading Page Objects==================================")
->>>>>>> android
         self.username.wait_until_visible()
         return self
 
@@ -89,7 +82,7 @@ class LoginPageObject(PageObject):
         self.password.text = user['password']
         self.login_button.wait_until_visible()
 
-        self.logger.debug("Clicking Login button.")
+        self.logger.debug("===Clicking Login button===.")
         time.sleep(2)
         self.login_button.click()
         return SecureAreaPageObject(self.driver_wrapper)
