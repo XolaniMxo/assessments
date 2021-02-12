@@ -52,7 +52,11 @@ class LoginPageObject(PageObject):
 
         :returns: this page object instance
         """
+<<<<<<< HEAD
         self.logger.debug("Loading page '%s'")
+=======
+        self.logger.debug("===============================Openining Page==================================")
+>>>>>>> android
         self.driver.get('{}/login'.format(self.config.get('Test', 'landing_page')))
         return self
 
@@ -62,7 +66,11 @@ class LoginPageObject(PageObject):
         :returns: this page object instance
         """
 
+<<<<<<< HEAD
         self.logger.debug("Waiting for page objects to visible.")
+=======
+        self.logger.debug("===============================Loading Page Objects==================================")
+>>>>>>> android
         self.username.wait_until_visible()
         return self
 
