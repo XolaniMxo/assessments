@@ -3,22 +3,20 @@ language: Python
 sudo: required
 
 python:
-  - "3.6"
-  - "2.7"
-  - "3.5"
+  - "3"
+  - "2"
   - "pypy"
   - "pypy3"
-  - "3.7-dev"
   
 include:
   - os: linux
     node_js: '7'
     
-before_script:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
-  - sleep 3
-  - fluxbox >/dev/null 2>&1 &
+# before_script:
+#   - "export DISPLAY=:99.0"
+#   - "sh -e /etc/init.d/xvfb start"
+#   - sleep 3
+#   - fluxbox >/dev/null 2>&1 &
   
 cache:
   directories:
@@ -45,9 +43,9 @@ install:
   - sudo apt-get update
   - pip show setuptools
   
-  - pip install git+https://github.com/behave/behave
-  - pip install toolium
-  - pip install sauceclient
+  # - pip install git+https://github.com/behave/behave
+  # - pip install toolium
+  - pip install -r requirements.txt
   
   - wget -N http://chromedriver.storage.googleapis.com/2.36/chromedriver_linux64.zip -P ~/
   - unzip ~/chromedriver_linux64.zip -d ~/
