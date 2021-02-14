@@ -57,8 +57,8 @@ install:
   - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
   
 script:
-  - behave Web\ Testing
-#   - sleep 10
+  - cd Web-automating
+  - behave
 #   - behave Second_web_demo  
 #   - sleep 10
 #   - behave android_behave
