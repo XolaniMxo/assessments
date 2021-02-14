@@ -5,13 +5,7 @@ Base project to start using `Toolium <https://github.com/Telefonica/toolium>`_ f
 (web, Android or iOS).
 
 The toolium-template example test is a behave web test. There are more examples of web, Android or iOS tests (with or
-without using behave) in `toolium-examples <https://github.com/Telefonica/toolium-examples>`_.
-
-Getting Started
----------------
-
-The requirements to install Toolium are `Python 2.7 or 3.3+ <http://www.python.org>`_ and
-`pip <https://pypi.python.org/pypi/pip>`_. If you use Python 2.7.9+, you don't need to install pip separately.
+without using behave) in `toolium-examples <https://github.com/Telefonica/toolium-examples>`_
 
 Clone `toolium-template <https://github.com/Telefonica/toolium-template>`_ repository and install requirements. It's
 highly recommendable to use a virtualenv.

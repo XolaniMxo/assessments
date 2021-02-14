@@ -52,7 +52,8 @@ class LoginPageObject(PageObject):
 
         :returns: this page object instance
         """
-        self.logger.debug("===============================Openining Page==================================")
+
+        self.logger.debug("===============================Openining Page=======================================")
         self.driver.get('{}/login'.format(self.config.get('Test', 'landing_page')))
         return self
 
@@ -81,7 +82,7 @@ class LoginPageObject(PageObject):
         self.password.text = user['password']
         self.login_button.wait_until_visible()
 
-        self.logger.debug("Clicking Login button.")
+        self.logger.debug("===Clicking Login button===.")
         time.sleep(2)
         self.login_button.click()
         return SecureAreaPageObject(self.driver_wrapper)

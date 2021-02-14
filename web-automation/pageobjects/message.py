@@ -39,6 +39,7 @@ class MessagePageObject(PageObject):
 
         :returns: str with message
         """        
+
         self.logger.debug("===============================Getting assert message==================================")
         time.sleep(3)
         return self.message.wait_until_visible(5).text.splitlines()[0]
