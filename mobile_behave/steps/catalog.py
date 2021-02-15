@@ -16,12 +16,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-from behave import given, when, then
+from behave import Given, When, Then
 
 from mobile_behave.pageobjects.initial import BaseInitialPageObject
 
-
-@given('OpenShop.io app is open')
+@Given('The Universal Music Player app is open')
+@When('The Universal Music Player app is open')
+@Then('The Universal Music Player app is open')
 def step_impl(context):
     context.current_page = BaseInitialPageObject().wait_until_loaded()
 

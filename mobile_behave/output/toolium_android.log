@@ -88,3 +88,315 @@ DEBUG   2021-02-14 09:27:45,230 [connectionpool] Starting new HTTP connection (1
 DEBUG   2021-02-14 09:27:45,936 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 809
 ERROR   2021-02-14 09:27:45,936 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'android_behave/applications/android-ump-mobile-debug-67a35ff.apk' does not exist or is not accessible
 ERROR   2021-02-14 09:27:45,938 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 09:37:04,572 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 09:37:04,573 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 09:37:04,573 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 09:37:04,578 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 09:37:04,578 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 09:37:04,578 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 09:37:04,578 [config_driver] Added Appium server capability: deviceName = GalaxyNexusAPI28
+DEBUG   2021-02-14 09:37:04,579 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-14 09:37:04,579 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 09:37:04,579 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 09:37:04,579 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 09:37:04,581 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 09:37:09,880 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1455
+ERROR   2021-02-14 09:37:09,880 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Android\\android-sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.207.102\:5555 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Stderr: 'cmd: Can't find service: settings
+ERROR   2021-02-14 09:37:09,885 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 09:39:49,289 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 09:39:49,290 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 09:39:49,290 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 09:39:49,295 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 09:39:49,295 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 09:39:49,295 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 09:39:49,295 [config_driver] Added Appium server capability: deviceName = GalaxyNexusAPI28
+DEBUG   2021-02-14 09:39:49,295 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-14 09:39:49,296 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 09:39:49,296 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 09:39:49,296 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 09:39:49,298 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 09:39:55,544 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1455
+ERROR   2021-02-14 09:39:55,545 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Android\\android-sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.207.102\:5555 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Stderr: 'cmd: Can't find service: settings
+ERROR   2021-02-14 09:39:55,549 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 09:44:20,152 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 09:44:20,152 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 09:44:20,153 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 09:44:20,157 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 09:44:20,158 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 09:44:20,158 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 09:44:20,158 [config_driver] Added Appium server capability: deviceName = GalaxyNexusAPI28
+DEBUG   2021-02-14 09:44:20,158 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-14 09:44:20,158 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 09:44:20,158 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 09:44:20,158 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 09:44:20,161 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 09:44:25,724 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1079
+ERROR   2021-02-14 09:44:25,725 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk: Client network socket disconnected before secure TLS connection was established
+ERROR   2021-02-14 09:44:25,727 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 09:46:52,830 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 09:46:52,830 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 09:46:52,830 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 09:46:52,837 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 09:46:52,837 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 09:46:52,837 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 09:46:52,837 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 09:46:52,837 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 09:46:52,838 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 09:46:52,838 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 09:46:52,838 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 09:46:52,841 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 09:47:02,415 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1015
+ERROR   2021-02-14 09:47:02,416 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: unable to get local issuer certificate
+ERROR   2021-02-14 09:47:02,417 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 09:54:32,847 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 09:54:32,847 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 09:54:32,847 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 09:54:32,847 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 09:54:32,847 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 09:54:32,847 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 09:54:32,847 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 09:54:32,847 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 09:54:32,847 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 09:54:32,847 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 09:54:32,847 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 09:54:32,847 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 09:54:43,023 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1015
+ERROR   2021-02-14 09:54:43,023 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: unable to get local issuer certificate
+ERROR   2021-02-14 09:54:43,023 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 09:57:38,424 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 09:57:38,425 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 09:57:38,425 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 09:57:38,430 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 09:57:38,430 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 09:57:38,431 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 09:57:38,431 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 09:57:38,431 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 09:57:38,431 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 09:57:38,431 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 09:57:38,431 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 09:57:38,434 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 09:57:47,722 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1015
+ERROR   2021-02-14 09:57:47,723 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: unable to get local issuer certificate
+ERROR   2021-02-14 09:57:47,726 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 09:58:27,024 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 09:58:27,024 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 09:58:27,024 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 09:58:27,029 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 09:58:27,029 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 09:58:27,029 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 09:58:27,029 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 09:58:27,029 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 09:58:27,029 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 09:58:27,029 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 09:58:27,029 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 09:58:27,032 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 09:58:33,426 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1015
+ERROR   2021-02-14 09:58:33,426 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: unable to get local issuer certificate
+ERROR   2021-02-14 09:58:33,432 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:01:09,492 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:01:09,492 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:01:09,492 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:01:09,508 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:01:09,508 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 10:01:09,508 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:01:09,508 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 10:01:09,508 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 10:01:09,508 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:01:09,508 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:01:09,508 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:01:09,508 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:01:17,793 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1097
+ERROR   2021-02-14 10:01:17,795 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: Client network socket disconnected before secure TLS connection was established
+ERROR   2021-02-14 10:01:17,803 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:01:40,366 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:01:40,367 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:01:40,367 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:01:40,371 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:01:40,372 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 10:01:40,372 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:01:40,372 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 10:01:40,372 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 10:01:40,372 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:01:40,372 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:01:40,372 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:01:40,375 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:01:48,931 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1015
+ERROR   2021-02-14 10:01:48,931 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: unable to get local issuer certificate
+ERROR   2021-02-14 10:01:48,931 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:01:56,075 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:01:56,075 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:01:56,075 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:01:56,080 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:01:56,080 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 10:01:56,081 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:01:56,081 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 10:01:56,081 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 10:01:56,081 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:01:56,081 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:01:56,081 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:01:56,084 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:02:04,092 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1015
+ERROR   2021-02-14 10:02:04,094 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: unable to get local issuer certificate
+ERROR   2021-02-14 10:02:04,101 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:43:07,942 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:43:07,944 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:43:07,944 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:43:07,949 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:43:07,949 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 10:43:07,949 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:43:07,949 [config_driver] Added Appium server capability: deviceName = Custom Tablet
+DEBUG   2021-02-14 10:43:07,949 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 10:43:07,950 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:43:07,950 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:43:07,950 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:43:07,952 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:43:16,252 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1097
+ERROR   2021-02-14 10:43:16,253 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: Client network socket disconnected before secure TLS connection was established
+ERROR   2021-02-14 10:43:16,255 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:46:21,319 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:46:21,320 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:46:21,320 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:46:21,327 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:46:21,328 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 10:46:21,328 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:46:21,328 [config_driver] Added Appium server capability: deviceName = emulator-5554
+DEBUG   2021-02-14 10:46:21,328 [config_driver] Added Appium server capability: app = applications\android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-14 10:46:21,328 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:46:21,328 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:46:21,328 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:46:21,331 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:46:22,085 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 781
+ERROR   2021-02-14 10:46:22,086 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'applications\android-ump-mobile-debug-67a35ff.apk' does not exist or is not accessible
+ERROR   2021-02-14 10:46:22,088 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:46:49,555 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:46:49,555 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:46:49,556 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:46:49,561 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:46:49,562 [config_driver] Added Appium server capability: automationName = uiautomator2
+DEBUG   2021-02-14 10:46:49,562 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:46:49,562 [config_driver] Added Appium server capability: deviceName = emulator-5554
+DEBUG   2021-02-14 10:46:49,562 [config_driver] Added Appium server capability: app = applications\android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-14 10:46:49,562 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:46:49,562 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:46:49,562 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:46:49,565 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:46:50,300 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 781
+ERROR   2021-02-14 10:46:50,300 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'applications\android-ump-mobile-debug-67a35ff.apk' does not exist or is not accessible
+ERROR   2021-02-14 10:46:50,302 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:49:37,631 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:49:37,632 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:49:37,632 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:49:37,636 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:49:37,636 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2021-02-14 10:49:37,637 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:49:37,637 [config_driver] Added Appium server capability: deviceName = emulator-5554
+DEBUG   2021-02-14 10:49:37,637 [config_driver] Added Appium server capability: app = applications\android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-14 10:49:37,637 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:49:37,637 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:49:37,637 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:49:37,640 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:49:38,394 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 781
+ERROR   2021-02-14 10:49:38,395 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'applications\android-ump-mobile-debug-67a35ff.apk' does not exist or is not accessible
+ERROR   2021-02-14 10:49:38,397 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:51:07,416 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:51:07,417 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:51:07,417 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:51:07,422 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:51:07,423 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2021-02-14 10:51:07,423 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:51:07,423 [config_driver] Added Appium server capability: deviceName = emulator-5554
+DEBUG   2021-02-14 10:51:07,423 [config_driver] Added Appium server capability: app = android-ump-mobile-debug-67a35ff (1).apk
+DEBUG   2021-02-14 10:51:07,423 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:51:07,423 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:51:07,423 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:51:07,425 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:51:08,192 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 761
+ERROR   2021-02-14 10:51:08,193 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'android-ump-mobile-debug-67a35ff (1).apk' does not exist or is not accessible
+ERROR   2021-02-14 10:51:08,195 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:51:28,420 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:51:28,420 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:51:28,420 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:51:28,426 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:51:28,426 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2021-02-14 10:51:28,426 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:51:28,426 [config_driver] Added Appium server capability: deviceName = emulator-5554
+DEBUG   2021-02-14 10:51:28,426 [config_driver] Added Appium server capability: app = android-ump-mobile-debug-67a35ff (1).apk
+DEBUG   2021-02-14 10:51:28,426 [config_driver] Added Appium server capability: appPackage = 
+DEBUG   2021-02-14 10:51:28,426 [config_driver] Added Appium server capability: appWaitPackage = 
+DEBUG   2021-02-14 10:51:28,427 [config_driver] Added Appium server capability: appWaitDuration = 20000
+DEBUG   2021-02-14 10:51:28,430 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:51:29,154 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 761
+ERROR   2021-02-14 10:51:29,155 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'android-ump-mobile-debug-67a35ff (1).apk' does not exist or is not accessible
+ERROR   2021-02-14 10:51:29,157 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-14 10:55:44,539 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-14 10:55:44,539 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-14 10:55:44,539 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-14 10:55:44,545 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-14 10:55:44,546 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2021-02-14 10:55:44,546 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-14 10:55:44,546 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2021-02-14 10:55:44,546 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2021-02-14 10:55:44,546 [config_driver] Added Appium server capability: app = https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true
+DEBUG   2021-02-14 10:55:44,546 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2021-02-14 10:55:44,549 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-14 10:55:51,478 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1015
+ERROR   2021-02-14 10:55:51,478 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Unable to download the app: Cannot download the file from https://github.com/XolaniMxo/assessments/blob/android/mobile_behave/applications/android-ump-mobile-debug-67a35ff.apk?raw=true: unable to get local issuer certificate
+ERROR   2021-02-14 10:55:51,481 [environment] The scenario 'view just arrived collections' has failed
+DEBUG   2021-02-15 14:31:47,352 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-15 14:31:47,353 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-15 14:31:47,354 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-15 14:31:47,359 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-15 14:31:47,359 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2021-02-15 14:31:47,359 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-15 14:31:47,359 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2021-02-15 14:31:47,359 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2021-02-15 14:31:47,359 [config_driver] Added Appium server capability: app = C:\Users\mxoxozix\Desktop\assessments\mobile_behave\applications\android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-15 14:31:47,359 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2021-02-15 14:31:47,364 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-15 14:32:22,378 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1099
+DEBUG   2021-02-15 14:32:25,032 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/d5a83e4d-d982-4c7c-ad6d-4476e95d55a2/appium/app/strings HTTP/1.1" 200 12523
+DEBUG   2021-02-15 14:32:25,068 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/d5a83e4d-d982-4c7c-ad6d-4476e95d55a2/window/rect HTTP/1.1" 200 50
+DEBUG   2021-02-15 14:32:25,068 [driver_wrapper] Window size: 1536 x 1952
+DEBUG   2021-02-15 14:32:26,757 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/d5a83e4d-d982-4c7c-ad6d-4476e95d55a2/log HTTP/1.1" 200 649987
+DEBUG   2021-02-15 14:32:28,896 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/d5a83e4d-d982-4c7c-ad6d-4476e95d55a2/timeouts HTTP/1.1" 200 14
+INFO    2021-02-15 14:32:28,898 [environment] Running new scenario: view just arrived collections
+ERROR   2021-02-15 14:32:51,256 [page_element] Page element of type 'Button' with locator ('id', 'bf.io.openshop:id/splash_shop_selection_spinner') not found or is not visible after 20 seconds
+ERROR   2021-02-15 14:32:51,268 [environment] The scenario 'view just arrived collections' has failed
+INFO    2021-02-15 14:32:55,452 [utils] Screenshot saved in C:\Users\mxoxozix\Desktop\assessments\mobile_behave\output\screenshots\2021-02-15_143147_android\01_view_just_arrived_collections.png
+DEBUG   2021-02-15 14:32:55,462 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files
+DEBUG   2021-02-15 15:25:03,527 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-15 15:25:03,530 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-15 15:25:03,531 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-15 15:25:03,541 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-15 15:25:03,541 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2021-02-15 15:25:03,542 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-15 15:25:03,542 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2021-02-15 15:25:03,542 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2021-02-15 15:25:03,542 [config_driver] Added Appium server capability: app = C:\Users\mxoxozix\Desktop\assessments\mobile_behave\applications\android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-15 15:25:03,543 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2021-02-15 15:25:03,548 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-15 15:25:17,199 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 500 1089
+ERROR   2021-02-15 15:25:17,200 [config_driver] Android driver can not be launched: Message: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C:\\Android\\android-sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.207.101\:5555 forward tcp\:8200 tcp\:6790' exited with code 1'; Stderr: 'adb.exe: error: more than one device/emulator'; Code: '1'
+ERROR   2021-02-15 15:25:17,205 [environment] The scenario 'Navigate the Universal Music Player' has failed
+DEBUG   2021-02-15 15:25:34,053 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\properties.cfg
+DEBUG   2021-02-15 15:25:34,053 [config_parser] Reading properties from file: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\android-properties.cfg
+DEBUG   2021-02-15 15:25:34,054 [config_parser] Properties config file not found: C:\Users\mxoxozix\Desktop\assessments\mobile_behave\conf\local-android-properties.cfg
+INFO    2021-02-15 15:25:34,059 [config_driver] Creating local driver (type = android)
+DEBUG   2021-02-15 15:25:34,060 [config_driver] Added Appium server capability: automationName = Appium
+DEBUG   2021-02-15 15:25:34,060 [config_driver] Added Appium server capability: platformName = Android
+DEBUG   2021-02-15 15:25:34,060 [config_driver] Added Appium server capability: deviceName = Android Emulator
+DEBUG   2021-02-15 15:25:34,060 [config_driver] Added Appium server capability: browserName = 
+DEBUG   2021-02-15 15:25:34,060 [config_driver] Added Appium server capability: app = C:\Users\mxoxozix\Desktop\assessments\mobile_behave\applications\android-ump-mobile-debug-67a35ff.apk
+DEBUG   2021-02-15 15:25:34,060 [config_driver] Added Appium server capability: appWaitActivity = 
+DEBUG   2021-02-15 15:25:34,064 [connectionpool] Starting new HTTP connection (1): 127.0.0.1:4723
+DEBUG   2021-02-15 15:25:50,722 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1099
+DEBUG   2021-02-15 15:25:53,830 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/cd8f61a7-80aa-433d-b7d0-8afd8dbba696/appium/app/strings HTTP/1.1" 200 12523
+DEBUG   2021-02-15 15:25:53,881 [connectionpool] http://127.0.0.1:4723 "GET /wd/hub/session/cd8f61a7-80aa-433d-b7d0-8afd8dbba696/window/rect HTTP/1.1" 200 50
+DEBUG   2021-02-15 15:25:53,882 [driver_wrapper] Window size: 1536 x 1952
+DEBUG   2021-02-15 15:25:55,471 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/cd8f61a7-80aa-433d-b7d0-8afd8dbba696/log HTTP/1.1" 200 567078
+DEBUG   2021-02-15 15:25:57,730 [connectionpool] http://127.0.0.1:4723 "POST /wd/hub/session/cd8f61a7-80aa-433d-b7d0-8afd8dbba696/timeouts HTTP/1.1" 200 14
+INFO    2021-02-15 15:25:57,732 [environment] Running new scenario: Navigate the Universal Music Player
+ERROR   2021-02-15 15:26:19,914 [page_element] Page element of type 'Button' with locator ('id', 'bf.io.openshop:id/splash_shop_selection_spinner') not found or is not visible after 20 seconds
+ERROR   2021-02-15 15:26:19,925 [environment] The scenario 'Navigate the Universal Music Player' has failed
+INFO    2021-02-15 15:26:22,685 [utils] Screenshot saved in C:\Users\mxoxozix\Desktop\assessments\mobile_behave\output\screenshots\2021-02-15_152534_android\01_Navigate_the_Universal_Music_Player.png
+DEBUG   2021-02-15 15:26:22,696 [utils] Reading logs from 'logcat, bugreport, server' and writing them to log files

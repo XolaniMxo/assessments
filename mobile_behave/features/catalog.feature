@@ -1,6 +1,6 @@
-Feature: OpenShop.io catalog
+Feature: Universal Music Player
 
-  Scenario: view just arrived collections
-    Given OpenShop.io app is open
+  Scenario: Navigate the Universal Music Player
+    Given The Universal Music Player app is open
     When the user goes to the shop
     Then just arrived collections are shown
