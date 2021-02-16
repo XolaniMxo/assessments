@@ -75,7 +75,7 @@ class TabsPageObject(PageObject):
         :returns: this page object instance
         """
         try:
-            self.logger.info("\n===============================Genre=================================")
+            self.logger.info("\n===============================Selecting Rock music from genre=================================")
             self.logger.debug("Choose a genre")
             self.logger.debug("Checking if the pageElement is present : %s", self.rock)
             self.logger.debug("\n-----------------------------------------------------------------------------------")
@@ -94,7 +94,7 @@ class TabsPageObject(PageObject):
         :returns: this page object instance
         """
         try:
-            self.logger.info("\n===============================Genre=================================")
+            self.logger.info("\n===============================Playing awakening=================================")
             self.logger.debug("Playing song.")
             self.logger.debug("Checking if the pageElement is present : %s", self.song)
             self.logger.debug("\n-----------------------------------------------------------------------------------")

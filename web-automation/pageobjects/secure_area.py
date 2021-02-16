@@ -28,7 +28,6 @@ class SecureAreaPageObject(PageObject):
     """
     :Class represents web page elements for Login page.
     """
-
     def init_page_elements(self):
         """ Initialize web page elements using element locator.
 
@@ -46,6 +45,6 @@ class SecureAreaPageObject(PageObject):
 
         self.logger.debug("===============================Logging out==================================")
         self.logger.debug("Clicking logout button")
-        time.sleep(3)
+        time.sleep(2)
         self.logout_button.click()
         return LoginPageObject(self.driver_wrapper).wait_until_loaded()
